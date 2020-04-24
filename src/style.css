@@ -1,0 +1,220 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* height: 100%; */
+  /* background: url(img/bg.jpg)  */
+  /* center center; */
+
+
+}
+h1 {
+  color: gray;
+  font-size: 5em;
+  margin-right: 0;
+  margin-left: 70vw;
+  margin-top: 60vh;
+}
+
+.navBar{
+  background-color: #253334;
+  height: 5vh;
+  padding: 2em;
+  text-align: end;
+}
+.navBar a {
+  text-decoration: none;
+  color: white;
+  margin-right: 5vw;
+}
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+.pos {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+
+
+}
+
+
+
+.background {
+  background: url(images/BACKGROUND.png) 
+  center center;
+  background-size: cover;
+  transform: scale3d(1.1, 1.1, 1.1);
+  opacity: 0.2;
+  animation: scaler 1s ease-out;
+  animation-fill-mode: forwards;
+
+  height: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.background-1 {
+  background: url(images/3.png) 
+  center center;
+  background-size: cover;
+  transform: scale3d(1.3, 1.3, 1.3);
+  opacity: 0.1;
+  animation: scaler 1.2s ease-out;
+  animation-fill-mode: forwards;
+
+  height: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.background-2 {
+  background: url(images/4.png) 
+  center center;
+  background-size: cover;
+  transform: scale3d(1.3, 1.3, 1.3);
+  opacity: 0.1;
+  animation: scaler 1.2s ease-out;
+  animation-fill-mode: forwards;
+
+  height: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.background-3 {
+  background: url(images/5.png) 
+  center center;
+  background-size: cover;
+  transform: scale3d(1.3, 1.3, 1.3);
+  opacity: 0.1;
+  animation: scaler 1.2s ease-out;
+  animation-fill-mode: forwards;
+
+  height: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.background-4 {
+  background: url(images/6.png) 
+  center center;
+  background-size: cover;
+  transform: scale3d(1.3, 1.3, 1.3);
+  opacity: 0.1;
+  animation: scaler 1.2s ease-out;
+  animation-fill-mode: forwards;
+
+  height: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.background-5 {
+  background: url(images/7.png) 
+  center center;
+  background-size: cover;
+  transform: scale3d(1.3, 1.3, 1.3);
+  opacity: 0.1;
+  animation: scaler 1.2s ease-out;
+  animation-fill-mode: forwards;
+
+  height: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.background-6 {
+  top: 120vh;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+
+  background: url(images/hand.jpg) 
+  center center;
+  background-size: cover;
+
+
+ 
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@keyframes moveUp {
+  100% {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes scaler {
+  100% {
+    transform: scale3d(1, 1, 1);
+    opacity: 1;
+  }
+}
+
+.textDiv {
+  height: 30vh;
+  text-align: center;
+}
+.textDiv h3 {
+  color: #253334;
+  font-size: 2em;
+  padding-top: 1em;
+}
+.button {
+  background-color: #253334; 
+  border: none;
+  color:  white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+a:link {
+  text-decoration: none;
+ 
+}
+a:visited {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: underline;
+}
+.page2 {
+  background-color: aquamarine;
+  height: 100vh;
+}
+.footer {
+  margin-top: -5vh;
+  background-color: #253334;
+  height: 10vh;
+  padding: 2em;
+}
+ul {
+  list-style-type:none
+}
